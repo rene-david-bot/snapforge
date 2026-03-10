@@ -4,9 +4,9 @@ import sys
 
 from PySide6.QtWidgets import QApplication
 
-from .capture import capture_primary_screen
-from .editor import EditorWindow
-from .overlay import SelectionOverlay
+from snapforge.capture import capture_primary_screen
+from snapforge.editor import EditorWindow
+from snapforge.overlay import SelectionOverlay
 
 
 class AppController:

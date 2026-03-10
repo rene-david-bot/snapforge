@@ -1,3 +1,3 @@
-from .main import main
+from snapforge.main import main
 
 raise SystemExit(main())
