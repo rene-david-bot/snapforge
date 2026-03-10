@@ -32,7 +32,7 @@ jobs:
 
       - name: Build binary
         run: |
-          pyinstaller --noconfirm --clean --windowed --name snapforge --paths src src/snapforge/main.py
+          pyinstaller --noconfirm --clean --onefile --windowed --name snapforge --paths src src/snapforge/main.py
 
       - name: Package Linux artifact
         if: runner.os == 'Linux'
